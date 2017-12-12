@@ -1,0 +1,19 @@
+nav ul {
+	margin: 0;
+	padding: 0;
+	border-style: solid;
+	border-color: black;
+}
+
+.w3-row {
+	background-color: #2093fe;
+}
+
+ #hover:hover {
+	transition: background-color 0.5s ease;
+	background-color: #08c23d !important;
+	-webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+
+}
