@@ -3,10 +3,13 @@ nav ul {
 	padding: 0;
 	border-style: solid;
 	border-color: black;
+	font-family: 'Press Start 2p', cursive;
+	margin-top: 10px;
 }
 
 .w3-row {
 	background-color: #2093fe;
+	size: 80%;
 }
 
  #hover:hover {
@@ -15,5 +18,39 @@ nav ul {
 	-webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+}
 
+.memeHdr h1 {
+	font-family: 'Press Start 2p', cursive;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 21;
+}
+
+/* Images */
+
+.homeImages {
+	padding-top: 100px;
+	margin: 40px;
+	text-align: center;
+}
+
+.homeImages img {
+	margin: 10px;
+}
+
+#fblogo:hover {
+ transition: 1s ease;
+ border-radius: 50%;
+}
+
+/*footer*/
+
+footer {
+	text-align: center;
+	padding-bottom: 20px
+}
+
+footer img {
+	margin: 12px;
 }
