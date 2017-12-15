@@ -29,13 +29,15 @@ nav ul {
 /* Images */
 
 .homeImages {
-	padding-top: 100px;
 	margin: 40px;
-	text-align: center;
+	align-items: center;
+	display: flex;
 }
 
 .homeImages img {
 	margin: 10px;
+	max-height: 200px;
+	max-width: 200px;
 }
 
 #fblogo:hover {
