@@ -226,7 +226,7 @@ nav {
 
 .quarter {
   float: left;
-  width: 24.99999%;
+  width: 100%;
 }
 
 .display-container {
@@ -314,11 +314,15 @@ footer img {
   }
 }
 
+@media (min-width:601px) {
+  .quarter {
+  	width:24.99999%;
+  }
+}
 
 @media only screen and (max-width: 600px) {
 
-
-   h1 {
+  h1 {
       font-size: 20px;
    }
 }
