@@ -187,6 +187,9 @@ html {
 }
 
 /*--- end of normalize ---*/
+header {
+    text-align: center;
+}
 
 nav ul {
   margin: 0;
@@ -198,6 +201,10 @@ nav ul {
 
 nav {
   margin-top: -5px;
+}
+
+.wrapper {
+  max-width: 100%;
 }
 
 .button {
@@ -251,20 +258,20 @@ nav {
   clear: both;
 }
 
-#hover:hover {
-  transition: background-color 0.5s ease;
-  background-color: #08c23d !important;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
 .memeHdr {
   font-family: 'Press Start 2p', cursive;
   padding-top: 20px;
   padding-bottom: 40px;
   text-align: center;
   font-size: 21;
+}
+
+#hover:hover {
+  transition: background-color 0.5s ease;
+  background-color: #08c23d !important;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* Images */
