@@ -185,12 +185,17 @@ html {
   box-sizing: inherit;
 }
 
+
 nav ul {
   margin: 0;
   padding: 0;
   border-style: solid;
   border-color: black;
   font-family: 'Press Start 2p', cursive;
+}
+
+nav {
+	margin-top: -4px;
 }
 
 .button {
@@ -231,24 +236,6 @@ nav ul {
 .image {
   max-width: 100%;
   height: auto;
-}
-
-@media (max-width:600px) {
-  .hide-small {
-    display: none!important;
-  }
-}
-
-@media (max-width:992px) and (min-width:601px) {
-  .hide-medium {
-    display: none!important;
-  }
-}
-
-@media (min-width:993px) {
-  .hide-large {
-    display: none!important;
-  }
 }
 
 .row {
@@ -305,4 +292,33 @@ footer {
 
 footer img {
   margin: 12px;
+}
+
+/*-------- Media Queries -----------*/
+
+@media (max-width:600px) {
+  .hide-small {
+    display: none!important;
+  }
+}
+
+@media (max-width:992px) and (min-width:601px) {
+  .hide-medium {
+    display: none!important;
+  }
+}
+
+@media (min-width:993px) {
+  .hide-large {
+    display: none!important;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+   h1 {
+      font-size: 20px;
+   }
 }
