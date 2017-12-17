@@ -1,160 +1,308 @@
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
-html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
-article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
-audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
-audio:not([controls]){display:none;height:0}[hidden],template{display:none}
-a{background-color:transparent;-webkit-text-decoration-skip:objects}
-a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
-dfn{font-style:italic}mark{background:#ff0;color:#000}
-small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
-sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}svg:not(:root){overflow:hidden}
-code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
-button,input,select,textarea{font:inherit;margin:0}optgroup{font-weight:bold}
-button,input{overflow:visible}button,select{text-transform:none}
-button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}
-button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner{border-style:none;padding:0}
-button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring{outline:1px dotted ButtonText}
-fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
-legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
-[type=checkbox],[type=radio]{padding:0}
-[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
-[type=search]{-webkit-appearance:textfield;outline-offset:-2px}
-[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}
-::-webkit-input-placeholder{color:inherit;opacity:0.54}
-::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+  display: block
+}
+
+audio, canvas, progress, video {
+  display: inline-block
+}
+
+progress {
+  vertical-align: baseline
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0
+}
+
+[hidden], template {
+  display: none
+}
 
 a {
-	background-color:transparent;
-	-webkit-text-decoration-skip:objects;
-	color:inherit;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects
+}
+
+a:active, a:hover {
+  outline-width: 0
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted
+}
+
+dfn {
+  font-style: italic
+}
+
+mark {
+  background: #ff0;
+  color: #000
+}
+
+small {
+  font-size: 80%
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline
+}
+
+sub {
+  bottom: -0.25em
+}
+
+sup {
+  top: -0.5em
+}
+
+figure {
+  margin: 1em 40px
+}
+
+img {
+  border-style: none
+}
+
+svg:not(:root) {
+  overflow: hidden
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible
+}
+
+button, input, select, textarea {
+  font: inherit;
+  margin: 0
+}
+
+optgroup {
+  font-weight: bold
+}
+
+button, input {
+  overflow: visible
+}
+
+button, select {
+  text-transform: none
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: .35em .625em .75em
+}
+
+legend {
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal
+}
+
+textarea {
+  overflow: auto
+}
+
+[type=checkbox], [type=radio] {
+  padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  color: inherit;
 }
 
 html {
-	box-sizing:border-box;
+  box-sizing: border-box;
 }
 
-*,*:before,*:after {
-	box-sizing:inherit;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 nav ul {
-	margin: 0;
-	padding: 0;
-	border-style: solid;
-	border-color: black;
-	font-family: 'Press Start 2p', cursive;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  font-family: 'Press Start 2p', cursive;
 }
 
 .button {
-	border:none;
-	display:inline-block;
-	outline:0;
-	padding:8px 16px;
-	vertical-align:middle;
-	overflow:hidden;
-	text-decoration:none;
-	color:inherit;
-	background-color:inherit;
-	text-align:center;
-	cursor:pointer;
-	white-space:nowrap;
-	-webkit-touch-callout:none;
-	-webkit-user-select:none;
-	-khtml-user-select:none;
-	-moz-user-select:none;
-	-ms-user-select:none;
-	user-select:none;
+  border: none;
+  display: inline-block;
+  outline: 0;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .button:disabled {
-	cursor:not-allowed;
-	opacity:0.3;
+  cursor: not-allowed;
+  opacity: 0.3;
 }
 
 .quarter {
-	float:left;
-	width:24.99999%;
+  float: left;
+  width: 24.99999%;
 }
 
 .display-container {
-	position: relative;
+  position: relative;
 }
 
 .image {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 @media (max-width:600px) {
-	.hide-small {
-		display: none!important;
-	}
+  .hide-small {
+    display: none!important;
+  }
 }
 
 @media (max-width:992px) and (min-width:601px) {
-	.hide-medium {
-		display: none!important;
-	}
+  .hide-medium {
+    display: none!important;
+  }
 }
 
 @media (min-width:993px) {
-	.hide-large {
-		display: none!important;
-	}
+  .hide-large {
+    display: none!important;
+  }
 }
 
 .row {
-	background-color: #2093fe;
-	size: 80%;
+  background-color: #2093fe;
+  size: 80%;
 }
 
-.row:after,.row:before {
-	content: "";
-	display: table;
-	clear: both;
+.row:after, .row:before {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #hover:hover {
-	transition: background-color 0.5s ease;
-	background-color: #08c23d !important;
-	-webkit-transform: scale(1.1);
+  transition: background-color 0.5s ease;
+  background-color: #08c23d !important;
+  -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
 
 .memeHdr h1 {
-	font-family: 'Press Start 2p', cursive;
-	padding-top: 20px;
-	text-align: center;
-	font-size: 21;
+  font-family: 'Press Start 2p', cursive;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 21;
 }
 
 /* Images */
 
 .homeImages {
-	margin: 40px;
-	align-items: center;
-	display: flex;
+  margin: 40px;
+  align-items: center;
+  display: flex;
 }
 
 .homeImages img {
-	margin: 10px;
-	max-height: 200px;
-	max-width: 200px;
+  margin: 10px;
+  max-height: 200px;
+  max-width: 200px;
 }
 
 #fblogo:hover {
- transition: 1s ease;
- border-radius: 50%;
+  transition: 1s ease;
+  border-radius: 50%;
 }
 
 /*footer*/
 
 footer {
-	text-align: center;
-	padding-bottom: 20px
+  text-align: center;
+  padding-bottom: 20px
 }
 
 footer img {
-	margin: 12px;
+  margin: 12px;
 }
