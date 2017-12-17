@@ -187,8 +187,9 @@ html {
 }
 
 /*--- end of normalize ---*/
+
 header {
-    text-align: center;
+  text-align: center;
 }
 
 nav ul {
@@ -201,10 +202,6 @@ nav ul {
 
 nav {
   margin-top: -5px;
-}
-
-.wrapper {
-  max-width: 100%;
 }
 
 .button {
@@ -327,11 +324,11 @@ footer img {
 }
 
 .animateBlock.left {
-  left: -20%;
+  left: -25%;
 }
 
 .animateBlock.right {
-  right: -20%;
+  right: -25%;
 }
 
 .left.animated {
@@ -373,8 +370,6 @@ html[xmlns] .clearfix {
 * html .clearfix {
   height: 1%;
 }
-
-
 
 /*-------- Media Queries -----------*/
 
