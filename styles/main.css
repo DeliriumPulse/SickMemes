@@ -188,7 +188,7 @@ html {
 /*--- end of normalize ---*/
 
 html, body {
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 header {
@@ -196,16 +196,16 @@ header {
 }
 
 nav {
-  margin-top: -25px;
+  margin-top: -15px;
 }
 
 nav ul {
   position: relative;
   margin: 0;
   padding: 0;
-  text-align: center;
   border-style: solid;
   border-color: black;
+    background-color: #2093fe;
   font-family: 'Press Start 2p', cursive;
 }
 
@@ -247,10 +247,6 @@ nav ul {
 .image {
   max-width: 100%;
   height: auto;
-}
-
-.row {
-  background-color: #2093fe;
 }
 
 .row:after, .row:before {
