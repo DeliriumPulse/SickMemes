@@ -270,6 +270,18 @@ nav ul {
 
 /* Images */
 
+#ceilCat {
+  text-align: right;
+  position: relative;
+}
+
+#ceilCat img {
+  max-width: 70%;
+  height: auto;
+  padding-right: 50px;
+  margin-top: -50px;
+}
+
 .homeImages {
   margin: 40px;
   align-items: center;
@@ -400,5 +412,10 @@ html[xmlns] .clearfix {
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 20px;
+  }
+
+  #ceilCat img{
+    max-width: 40%;
+    padding-right: -30px;
   }
 }
