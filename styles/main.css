@@ -208,7 +208,7 @@ nav {
   border: none;
   display: inline-block;
   outline: 0;
-  padding: 8px 16px;``
+  padding: 8px 16px;
   vertical-align: middle;
   overflow: hidden;
   text-decoration: none;
@@ -374,6 +374,9 @@ html[xmlns] .clearfix {
 /*-------- Media Queries -----------*/
 
 @media (max-width:600px) {
+  nav {
+      margin-top: -4px;
+  }
   .hide-small {
     display: none !important;
   }
