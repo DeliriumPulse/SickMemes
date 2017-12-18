@@ -192,6 +192,7 @@ header {
 }
 
 nav ul {
+  text-align: center;
   margin: 0;
   padding: 0;
   border-style: solid;
@@ -200,6 +201,7 @@ nav ul {
 }
 
 nav {
+  text-align: center;
   margin-top: -5px;
   z-index: 2;
 }
