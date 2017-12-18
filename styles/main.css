@@ -261,6 +261,7 @@ nav ul {
   padding-bottom: 40px;
   text-align: center;
   font-size: 21;
+  position: relative;
 }
 
 #hover:hover {
@@ -272,10 +273,13 @@ nav ul {
 
 #ceilCat {
   text-align: right;
-  position: relative;
+  position: fixed;
+  top: 300px;
+  right: 0;
 }
 
 #ceilCat img {
+  float: right
   max-width: 70%;
   height: auto;
   padding-right: 50px;
@@ -286,6 +290,7 @@ nav ul {
   margin: 40px;
   align-items: center;
   display: flex;
+  position: relative;
 }
 
 .homeImages img {
