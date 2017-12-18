@@ -195,19 +195,16 @@ header {
   text-align: center;
 }
 
+nav {
+  margin-top: -25px;
+}
+
 nav ul {
+  position: relative;
   text-align: center;
-  margin: 0;
-  padding: 0;
   border-style: solid;
   border-color: black;
   font-family: 'Press Start 2p', cursive;
-}
-
-nav {
-  text-align: center;
-  margin-top: -5px;
-  z-index: 2;
 }
 
 .button {
@@ -252,7 +249,6 @@ nav {
 
 .row {
   background-color: #2093fe;
-  size: 80%;
 }
 
 .row:after, .row:before {
@@ -272,9 +268,6 @@ nav {
 #hover:hover {
   transition: background-color 0.5s ease;
   background-color: #08c23d !important;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
 }
 
 /* Images */
