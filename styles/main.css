@@ -188,7 +188,7 @@ html {
 /*--- end of normalize ---*/
 
 html, body {
-    overflow-x: hidden
+  overflow-x: hidden
 }
 
 header {
@@ -201,6 +201,8 @@ nav {
 
 nav ul {
   position: relative;
+  margin: 0;
+  padding: 0;
   text-align: center;
   border-style: solid;
   border-color: black;
@@ -374,7 +376,7 @@ html[xmlns] .clearfix {
 
 @media (max-width:600px) {
   nav {
-      margin-top: -4px;
+    margin-top: -4px;
   }
   .hide-small {
     display: none !important;
