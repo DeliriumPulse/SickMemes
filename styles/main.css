@@ -187,6 +187,10 @@ html {
 
 /*--- end of normalize ---*/
 
+html, body {
+    overflow-x: hidden
+}
+
 header {
   text-align: center;
 }
