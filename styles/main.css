@@ -264,9 +264,27 @@ nav ul {
   position: relative;
 }
 
+
 #hover:hover {
   transition: background-color 0.5s ease;
   background-color: #08c23d !important;
+}
+
+/*--- SUBMIT FORM ---*/
+
+form div {
+  font-family: 'Press Start 2p', cursive;
+  font-size: 13px;
+  margin-top:110px;
+  margin-left:50px;
+  padding: 5px;
+  text-align: center;
+
+}
+
+form #submitbutton {
+  padding-bottom: 40px;
+  position: relative;
 }
 
 /* Images */
@@ -299,16 +317,25 @@ nav ul {
   max-width: 200px;
 }
 
+#fblogo {
+  text-align: right;
+  display: inline;
+  position: right;
+}
+
 #fblogo:hover {
   transition: 1s ease;
   border-radius: 50%;
+
 }
 
 /*footer*/
 
-footer {
+footer  {
   text-align: center;
-  padding-bottom: 20px
+  padding-bottom: 20px;
+  display: block;
+
 }
 
 footer img {
@@ -418,9 +445,13 @@ html[xmlns] .clearfix {
   h1 {
     font-size: 20px;
   }
-
   #ceilCat img{
     max-width: 40%;
     padding-right: -30px;
   }
+
+form div{
+  margin-top: 20px;
+}
+
 }

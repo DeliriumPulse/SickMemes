@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sick Memes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <header class="display-container">
+    <img class="image hide-small" src="img/tumblr_mn0w6fA9fp1srwrbfo1_500.jpg">
+    <img class="image hide-large hide-medium" src="img/logo.jpg">
+  </header>
+  <nav>
+    <ul class="row">
+      <a href="index.html">
+        <li id="hover" class="button quarter">HOME</li>
+      </a>
+      <a href="submit.html">
+        <li id="hover" class="button quarter">SUBMIT</li>
+      </a>
+      <a href="#categories">
+        <li id="hover" class="button quarter">TAGS</li>
+      </a>
+      <li id="hover" class="button quarter">SEARCH</li>
+    </ul>
+  </nav>
+  <div class="wrapper">
+    <div id="ceilCat" class="hide-small">
+      <img src="img/ceilingcat.png" alt="Cat poking his head through a hole">
+    </div>
+    <div class="memeHdr">
+      <h1>Only the sickest memes on the planet</h1>
+    </div>
+    <!-- Submit Form for Image Upload -->
+
+    <form>
+      <div>
+        <label for="ImageUpload">Upload your memes here.</label>
+        <input name="ImageUpload" type="file" name="file">
+      </div>
+      <div id="submitbutton">
+        <input type="submit" value="Send" accesskey="s">
+      </div>
+    </form>
+
+    <footer>
+      Visit us on Facebook if you haven't already to keep up with more sick memes.
+      <a href="https://www.facebook.com/sickmemeshere/">
+			<img id="fblogo" src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png" width="40px" height="40px">
+	 		</a>
+    </footer>
+  </div>
+
+
+
+
+</body>
+
+</html>
